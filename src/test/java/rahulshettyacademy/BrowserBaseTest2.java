@@ -24,7 +24,7 @@ public class BrowserBaseTest2 {
 	public AndroidDriver driver;
 	public AppiumDriverLocalService service;
 	
-	
+
 	@BeforeClass
 	public void ConfigureAppium() throws MalformedURLException, URISyntaxException {
 		//Start server
@@ -54,7 +54,7 @@ public class BrowserBaseTest2 {
 
 public double ConvertStringtoDouble(String s) {
 	
-	
+	System.out.println();
 	return (Double.parseDouble(s.substring(1)));
 	
 }
