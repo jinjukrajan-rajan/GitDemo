@@ -21,7 +21,7 @@ public class AppiumBasics extends BaseTest {
 
 	@Test
 	public void AppiumTest() throws MalformedURLException, URISyntaxException, InterruptedException {
-		
+		System.out.println("test");
 		 //code
 		//Click hamberger
 		// driver.findElement(By.xpath("//android.view.ViewGroup[@content-desc=\"open menu\"]/android.widget.ImageView")).click();

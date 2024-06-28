@@ -31,7 +31,7 @@ public class BaseTest {
 				service=new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\ADMIN\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
 						.withIPAddress("127.0.0.1").usingPort(4723).build();
 				service.start();
-				
+				System.out.println();
 				UiAutomator2Options options=new UiAutomator2Options();
 				options.setDeviceName("Pixel3aphone");
 				options.setChromedriverExecutable("C:\\Users\\ADMIN\\Downloads\\chromedriver-win64\\chromedriver.exe");
