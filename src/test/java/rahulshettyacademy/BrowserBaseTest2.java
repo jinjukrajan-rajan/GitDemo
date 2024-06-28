@@ -54,7 +54,8 @@ public class BrowserBaseTest2 {
 
 public double ConvertStringtoDouble(String s) {
 	
-	System.out.println();
+	System.out.println("1");
+	System.out.println("2");
 	return (Double.parseDouble(s.substring(1)));
 	
 }
